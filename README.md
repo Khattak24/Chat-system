@@ -2,6 +2,8 @@ XFlowResearch Chat System
 =========
 
 Chatting CLI based server
+python sockets with multiple threading
+
 
 get source code from : https://github.com/Khattak24/Chat-system/tree/develop
 
@@ -24,3 +26,4 @@ You can also build/ install this project
 make sure python is installed
 
 * `pip install dist/xflowresearch_chat-0.1-py3-none-any.whl`
+
