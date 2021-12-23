@@ -25,7 +25,7 @@ def store_data(chat, chat_time):
         conn = connect_db()
         # Insert recors into the database
         conn.execute("INSERT INTO chat VALUES (?,?)", (chat, chat_time))
-        logging.exception("Database : Data inserted successfully and timestamp is : " + str(datetime.datetime.now()))
+        logging.Info("Database : Data inserted successfully and timestamp is : " + str(datetime.datetime.now()))
         conn.close()
         return True
     except Exception as ex:
